@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    animation: animation 5s ease forwards;
+
+}
+
+.Head{
+    width: 800px;
+    margin: 0 auto;
+    font-kerning: auto;
+    position: absolute;
+    top: 35%;
+    left: 21.5%;
+    font-size: xx-large;
+}
+
+@keyframes animation {
+    from{
+        letter-spacing: 100px;
+    }to
+         {
+    letter-spacing: 15px;
+         }
+
+}
